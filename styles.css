@@ -55,7 +55,7 @@ body {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 
@@ -72,7 +72,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 5vh;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .second-circle {
@@ -81,7 +81,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 5vh;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   /* align-items: center; */
 }
 
@@ -110,7 +110,7 @@ body {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .landing-page-footer {
@@ -125,6 +125,7 @@ body {
 
 .landing-page-second {
   height: 100%;
+  font-size: 1.5rem;
 }
 
 .greet-picture {
@@ -140,6 +141,7 @@ body {
 
 .landing-page-third {
   height: 100%;
+  font-size: 1.5rem;
 }
 
 .first-circle {
@@ -150,6 +152,9 @@ body {
   height: 100vh;
 }
 
+.landing-page-fourth {
+  font-size: 1.5rem;
+}
 
 
 }
@@ -160,6 +165,7 @@ body {
 
   .landing-page-third {
     height: 100%;
+      font-size: 1.5rem;
   }
   
   .first-circle {
@@ -170,6 +176,11 @@ body {
     height: 100vh;
   }
   
+  
+.landing-page-fourth {
+  font-size: 1.5rem;
+}
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1500px) {
@@ -178,6 +189,7 @@ body {
 
   .landing-page-third {
     height: 100%;
+    font-size: 1.5rem;
   }
   
   .first-circle {
@@ -187,13 +199,19 @@ body {
   .second-circle {
     height: 100vh;
   }
+ 
   
+  
+.landing-page-fourth {
+  font-size: 1.5rem;
+}
 }
 
 @media only screen and (min-width: 1200px) {
   .landing-page-second {
     height: 100%;
     display: flex;
+    font-size: 1.5rem;
   }
   
   .greet-picture {
@@ -212,6 +230,7 @@ body {
   .landing-page-third {
     height: 95%;
     display: flex;
+    font-size: 1.5rem;
   }
   
   .first-circle {
@@ -223,7 +242,12 @@ body {
     height: 95vh;
     width: 50%
   }
+ 
   
+  
+.landing-page-fourth {
+  font-size: 1.5rem;
+}
 }
 
 /* XXLarge screens */
