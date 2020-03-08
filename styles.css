@@ -50,6 +50,12 @@ body {
 .greet-text {
   background-color: orangered;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.25rem;
 }
 
 
@@ -65,7 +71,8 @@ body {
   background-color: red;
   display: flex;
   justify-content: center;
-  padding: 5vh
+  padding: 5vh;
+  font-size: 1.25rem;
 }
 
 .second-circle {
@@ -73,7 +80,8 @@ body {
   background-color: blue;
   display: flex;
   justify-content: center;
-  padding: 5vh
+  padding: 5vh;
+  font-size: 1.25rem;
   /* align-items: center; */
 }
 
@@ -97,6 +105,12 @@ body {
 .landing-page-fourth {
   height: 100vh;
   background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.25rem;
 }
 
 .landing-page-footer {
