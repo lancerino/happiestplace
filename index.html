@@ -35,7 +35,9 @@
       </div>
 
       <div class="greet-text">
-        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam incidunt voluptate tempore, mollitia dolorem molestias totam unde tempora quod nulla numquam consequatur voluptatum facilis iure rerum omnis deleniti non commodi.</span>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam incidunt voluptate tempore, mollitia
+          dolorem molestias totam unde tempora quod nulla numquam consequatur voluptatum facilis iure rerum omnis
+          deleniti non commodi.</span>
       </div>
 
       <!-- Everything about her / that describes her -->
@@ -75,7 +77,8 @@
     <div class="landing-page-fourth">
       <!-- Message -->
       <span>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas harum, ullam eaque quos quae deleniti qui ducimus exercitationem placeat cum, sint porro suscipit ea magni excepturi, quis dolor esse eius?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas harum, ullam eaque quos quae deleniti qui
+        ducimus exercitationem placeat cum, sint porro suscipit ea magni excepturi, quis dolor esse eius?
       </span>
     </div>
 
@@ -88,7 +91,11 @@
 
   <!-- Scripts -->
   <script>
-    window.scrollTo(0, 0);
+    window.scrollTo({
+      top: 0,
+      left: 100,
+      behavior: 'smooth'
+    });
 
     // Slide Up
     const slideUp = {
@@ -112,12 +119,12 @@
     //   delay: 750,
     // }
 
-    // const slideUpDelayed = {
-    //   distance: '150%',
-    //   origin: 'bottom',
-    //   opacity: null,
-    //   delay: 1500,
-    // }
+    const slideUpDelayed = {
+      distance: '150%',
+      origin: 'bottom',
+      opacity: null,
+      delay: 1500,
+    }
 
 
     //Scroll reveal divs
@@ -125,7 +132,7 @@
     ScrollReveal().reveal('.greet-text', slideUp);
     ScrollReveal().reveal('.first-circle', slideUp);
     ScrollReveal().reveal('.second-circle', slideUp);
-    // ScrollReveal().reveal(".circle-container", slideUpDelayed)
+    ScrollReveal().reveal(".circle-container", slideUpDelayed)
 
   </script>
 </body>
